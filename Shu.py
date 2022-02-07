@@ -8,7 +8,8 @@ class OurSprites (pg.sprite.Sprite):
         self.speed = speed
         self.rect = self.image.get_rect()
         self.rect.x = x
-        self.rect.y = y 
+        self.rect.y = y
+
     def reset(self):
         window.blit(self.image, (self.rect.x, self.rect.y))
 
@@ -50,3 +51,4 @@ while game:
             game = False
     pg.display.update ()
     clock.tick (120)
+    print ("Привіт!")
