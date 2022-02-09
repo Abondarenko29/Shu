@@ -51,4 +51,3 @@ while game:
             game = False
     pg.display.update ()
     clock.tick (120)
-    print ("Привіт!")
